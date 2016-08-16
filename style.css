@@ -1,0 +1,85 @@
+body {
+  background-color: darkslategray;
+  padding: 3%;
+  width: 100%;
+}
+
+.heading {
+  width: 92%;
+  height: 100px;
+  background-color: lightslategray;
+}
+
+footer {
+  background-color: pink;
+  height: 100px;
+}
+
+#result-space {
+  color: mintcream;
+}
+
+.wins {
+  color: mintcream;
+}
+
+h1 {
+  display: inline-block;
+  color: lightskyblue;
+  vertical-align: middle;
+}
+
+h2 {
+  display: inline-block;
+  color: mintcream;
+  background-color: darkslategray;
+}
+
+h3 {
+  display: inline-block;
+  color: mintcream;
+  background-color: darkslategray;
+}
+
+img {
+  width: 45%;
+  height: 100%;
+}
+
+#myTable {
+  width: 100%;
+  background-color: darkkhaki;
+  height: 600px;
+  border-style: solid;
+  border-color: lightskyblue;
+}
+
+.row {
+  border-style: solid;
+  border-color: lightskyblue;
+}
+
+.cell {
+  border-style: solid;
+  border-color: lightskyblue;
+}
+
+.board-set {
+  width: 98%;
+  color: mintcream;
+  height: 150px;
+  background-color: darkolivegreen;
+  vertical-align: top;
+}
+
+.board-box {
+  width: 32%;
+  height: 100px;
+  background-color: darkkhaki;
+  display: inline-block;
+  vertical-align: center;
+}
+
+.inputbox {
+
+}

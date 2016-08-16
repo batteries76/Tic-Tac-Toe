@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="heading">
+    <img src="http://doc.qt.io/qt-4.8/images/qml-tic-tac-toe-example.png">
+    <h1>Tic Tac Toe</h1>
+
+    <h2>Please enter a board size: </h2>
+
+
+    <input id="board-value" type="text">
+    <button id="create-btn">CREATE!</button>
+    <br>
+    <br>
+
+    <table id="myTable">
+    </table>
+    <br>
+    <br>
+    <br>
+
+    <button id="reinit-button">RE-INITIALISE
+      </button>
+    <br>
+    <br>
+    <div id="result-space"></div>
+    <br>
+    <br>
+    <h3>X has won:  </h3>
+    <div class='wins' id='wins-0'></div>
+    <br>
+    <h3>O has won:  </h3>
+    <div class='wins' id='wins-1'></div>
+
+    <footer></footer>
+  <script src="tictactoe.js"></script>
+</body>
+</html>

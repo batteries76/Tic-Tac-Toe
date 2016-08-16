@@ -1,0 +1,36 @@
+objects and arrays
+
+On initiate send the null board and the randomly assigned first player (with space for players to choose the first player assignment down the track).
+The player then chooses a square.
+Send that choice only.
+One function receives the move.
+From there you just need a board (array), to keep track of the player moves (switching function), and to check if someone has won (isWinner function).
+Need to send back the board, the player move, and a decremental counter to give an idea how many plays remaining.
+
+
+move
+player - player A and B
+board
+board-box
+
+functions
+
+change player
+moveIn
+isWinner
+sendState
+
+move {
+  player = {
+    board = {
+
+      var boardArray = [[null], [null], [null],
+                        [null], [null], [null],
+                        [null], [null], [null]]
+      board-box = {
+        value: null
+      }
+    }
+  }
+
+}

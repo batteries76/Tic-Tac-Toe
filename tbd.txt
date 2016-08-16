@@ -1,0 +1,6 @@
+FINISH reinitialise (and create interference), and then..
+1. randomise startingplayer
+2. get a computer option
+3. add player options
+4. add character options
+5. errrr.. css and design?
